@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectsCreateDialog Snapshot tests Matches snapshot when component is mounted 1`] = `
+"<div class=\\"v-dialog__container\\">
+  <div role=\\"dialog\\" aria-modal=\\"true\\" class=\\"v-dialog__content v-dialog__content--active\\" style=\\"z-index: 202;\\">
+    <transition-stub name=\\"dialog-transition\\" appear=\\"true\\">
+      <div tabindex=\\"0\\" class=\\"v-dialog v-dialog--active v-dialog--persistent\\" style=\\"transform-origin: center center; max-width: 600px;\\">
+        <div class=\\"v-card v-sheet theme--light\\">
+          <div class=\\"v-card__title primary mb-4\\"><span class=\\"headline white--text\\">
+        Create new project
+      </span>
+            <div class=\\"spacer\\"></div> <button type=\\"button\\" class=\\"v-btn v-btn--icon v-btn--round theme--light v-size--default\\" id=\\"app-dialog-hide-button\\"><span class=\\"v-btn__content\\"><i aria-hidden=\\"true\\" class=\\"v-icon notranslate mdi mdi-close theme--light white--text\\"></i></span></button></div>
+          <div class=\\"v-card__text\\">
+            <div class=\\"container\\">
+              <div class=\\"row\\">
+                <div class=\\"col\\">
+                  <div class=\\"v-input theme--light v-text-field\\">
+                    <div class=\\"v-input__control\\">
+                      <div class=\\"v-input__slot\\">
+                        <div class=\\"v-text-field__slot\\"><label for=\\"title-text-field\\" class=\\"v-label theme--light\\" style=\\"left: 0px; position: absolute;\\">Project name*</label><input data-q-name-input=\\"\\" required=\\"required\\" id=\\"title-text-field\\" type=\\"text\\"></div>
+                      </div>
+                      <div class=\\"v-text-field__details\\">
+                        <div class=\\"v-messages theme--light\\">
+                          <transition-group-stub tag=\\"div\\" name=\\"message-transition\\" class=\\"v-messages__wrapper\\"></transition-group-stub>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> <small>*indicates required field</small>
+          </div>
+          <div class=\\"v-card__actions\\">
+            <div class=\\"spacer\\"></div> <button type=\\"button\\" class=\\"white--text v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--large red darken-1\\" id=\\"close-project-dialog-button\\" data-q-close-button=\\"\\"><span class=\\"v-btn__content\\">
+        Close
+      </span></button> <button type=\\"button\\" class=\\"v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--large primary darken-1\\" id=\\"create-project-button\\" data-q-submit-button=\\"\\"><span class=\\"v-btn__content\\">
+        Save
+      </span></button>
+          </div>
+        </div>
+      </div>
+    </transition-stub>
+  </div>
+</div>"
+`;
+
+exports[`ProjectsCreateDialog Snapshot tests Matches snapshot when project name is correct 1`] = `
+"<div class=\\"v-dialog__container\\">
+  <div role=\\"dialog\\" aria-modal=\\"true\\" class=\\"v-dialog__content v-dialog__content--active\\" style=\\"z-index: 202;\\">
+    <transition-stub name=\\"dialog-transition\\" appear=\\"true\\">
+      <div tabindex=\\"0\\" class=\\"v-dialog v-dialog--active v-dialog--persistent\\" style=\\"transform-origin: center center; max-width: 600px;\\">
+        <div class=\\"v-card v-sheet theme--light\\">
+          <div class=\\"v-card__title primary mb-4\\"><span class=\\"headline white--text\\">
+        Create new project
+      </span>
+            <div class=\\"spacer\\"></div> <button type=\\"button\\" class=\\"v-btn v-btn--icon v-btn--round theme--light v-size--default\\" id=\\"app-dialog-hide-button\\"><span class=\\"v-btn__content\\"><i aria-hidden=\\"true\\" class=\\"v-icon notranslate mdi mdi-close theme--light white--text\\"></i></span></button></div>
+          <div class=\\"v-card__text\\">
+            <div class=\\"container\\">
+              <div class=\\"row\\">
+                <div class=\\"col\\">
+                  <div class=\\"v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field\\">
+                    <div class=\\"v-input__control\\">
+                      <div class=\\"v-input__slot\\">
+                        <div class=\\"v-text-field__slot\\"><label for=\\"title-text-field\\" class=\\"v-label v-label--active theme--light\\" style=\\"left: 0px; position: absolute;\\">Project name*</label><input data-q-name-input=\\"\\" required=\\"required\\" id=\\"title-text-field\\" type=\\"text\\"></div>
+                      </div>
+                      <div class=\\"v-text-field__details\\">
+                        <div class=\\"v-messages theme--light\\">
+                          <transition-group-stub tag=\\"div\\" name=\\"message-transition\\" class=\\"v-messages__wrapper\\"></transition-group-stub>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> <small>*indicates required field</small>
+          </div>
+          <div class=\\"v-card__actions\\">
+            <div class=\\"spacer\\"></div> <button type=\\"button\\" class=\\"white--text v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--large red darken-1\\" id=\\"close-project-dialog-button\\" data-q-close-button=\\"\\"><span class=\\"v-btn__content\\">
+        Close
+      </span></button> <button type=\\"button\\" class=\\"v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--large primary darken-1\\" id=\\"create-project-button\\" data-q-submit-button=\\"\\"><span class=\\"v-btn__content\\">
+        Save
+      </span></button>
+          </div>
+        </div>
+      </div>
+    </transition-stub>
+  </div>
+</div>"
+`;
+
+exports[`ProjectsCreateDialog Snapshot tests Matches snapshot when project name is incorrect 1`] = `
+"<div class=\\"v-dialog__container\\">
+  <div role=\\"dialog\\" aria-modal=\\"true\\" class=\\"v-dialog__content v-dialog__content--active\\" style=\\"z-index: 202;\\">
+    <transition-stub name=\\"dialog-transition\\" appear=\\"true\\">
+      <div tabindex=\\"0\\" class=\\"v-dialog v-dialog--active v-dialog--persistent\\" style=\\"transform-origin: center center; max-width: 600px;\\">
+        <div class=\\"v-card v-sheet theme--light\\">
+          <div class=\\"v-card__title primary mb-4\\"><span class=\\"headline white--text\\">
+        Create new project
+      </span>
+            <div class=\\"spacer\\"></div> <button type=\\"button\\" class=\\"v-btn v-btn--icon v-btn--round theme--light v-size--default\\" id=\\"app-dialog-hide-button\\"><span class=\\"v-btn__content\\"><i aria-hidden=\\"true\\" class=\\"v-icon notranslate mdi mdi-close theme--light white--text\\"></i></span></button></div>
+          <div class=\\"v-card__text\\">
+            <div class=\\"container\\">
+              <div class=\\"row\\">
+                <div class=\\"col\\">
+                  <div class=\\"v-input v-input--has-state theme--light v-text-field error--text\\">
+                    <div class=\\"v-input__control\\">
+                      <div class=\\"v-input__slot\\">
+                        <div class=\\"v-text-field__slot\\"><label for=\\"title-text-field\\" class=\\"v-label theme--light error--text\\" style=\\"left: 0px; position: absolute;\\">Project name*</label><input data-q-name-input=\\"\\" required=\\"required\\" id=\\"title-text-field\\" type=\\"text\\"></div>
+                      </div>
+                      <div class=\\"v-text-field__details\\">
+                        <div class=\\"v-messages theme--light error--text\\" role=\\"alert\\">
+                          <transition-group-stub tag=\\"div\\" name=\\"message-transition\\" class=\\"v-messages__wrapper\\">
+                            <div class=\\"v-messages__message\\">Must contain at least 1 character</div>
+                          </transition-group-stub>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> <small>*indicates required field</small>
+          </div>
+          <div class=\\"v-card__actions\\">
+            <div class=\\"spacer\\"></div> <button type=\\"button\\" class=\\"white--text v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--large red darken-1\\" id=\\"close-project-dialog-button\\" data-q-close-button=\\"\\"><span class=\\"v-btn__content\\">
+        Close
+      </span></button> <button type=\\"button\\" class=\\"v-btn v-btn--disabled v-btn--has-bg theme--light v-size--large\\" id=\\"create-project-button\\" data-q-submit-button=\\"\\" disabled=\\"disabled\\"><span class=\\"v-btn__content\\">
+        Save
+      </span></button>
+          </div>
+        </div>
+      </div>
+    </transition-stub>
+  </div>
+</div>"
+`;

@@ -1,0 +1,7 @@
+@import '~vuetify/src/styles/styles.sass';
+
+.text-shortened-dots {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
